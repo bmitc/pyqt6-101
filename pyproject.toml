@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyqt6-101"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{ include = "pyqt6_101" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+PyQt6 = "^6.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
